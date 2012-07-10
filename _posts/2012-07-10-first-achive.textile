@@ -1,0 +1,13 @@
+---
+layout: post
+title: 我的第一篇日志
+---
+
+h1. {{ page.title }}
+
+p(meta). 10 Jul 2012 - Julong
+
+我的测试
+哈哈哈
+
+离开死机弗兰克第三届发  
