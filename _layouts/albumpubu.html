@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Photos</title>
+<link rel='stylesheet' href='/css/pubustyle.css' media='screen' />
+<script src="/js/jquery.js"></script>
+<!--[if lt IE 9]>
+<script src="/html5.js"></script>
+<![endif]-->
+<script src="/js/blocksit.min.js"></script>
+<script>
+    $(document).ready(function() {
+        //vendor script
+        $('#header').css({
+            'top' : -50
+        }).delay(1000).animate({
+            'top' : 0
+        }, 800);
+
+        $('#footer').css({
+            'bottom' : -15
+        }).delay(1000).animate({
+            'bottom' : 0
+        }, 800);
+
+        //blocksit define
+        $(window).load(function() {
+            $('#container').BlocksIt({
+                numOfCol : 5,
+                offsetX : 8,
+                offsetY : 8
+            });
+        });
+
+        //window resize
+        var currentWidth = 1100;
+        $(window).resize(function() {
+            var winWidth = $(window).width();
+            var conWidth;
+            if (winWidth < 660) {
+                conWidth = 440;
+                col = 2
+            } else if (winWidth < 880) {
+                conWidth = 660;
+                col = 3
+            } else if (winWidth < 1100) {
+                conWidth = 880;
+                col = 4;
+            } else {
+                conWidth = 1100;
+                col = 5;
+            }
+
+            if (conWidth != currentWidth) {
+                currentWidth = conWidth;
+                $('#container').width(conWidth);
+                $('#container').BlocksIt({
+                    numOfCol : col,
+                    offsetX : 8,
+                    offsetY : 8
+                });
+            }
+        });
+    });
+</script>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <h1>
+            我的相册<span style="margin-left: 30px; font-size: 10pt;">记录生活点滴</span>
+        </h1>
+        <div id="backlinks">
+            <a href="/index.html">Home&raquo;</a>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+
+    <!-- Content -->
+    <section id="wrapper">
+        <div id="container">
+            {{ content }}
+        </div>
+    </section>
+    <div style="text-align: center; clear: both">
+        <p>
+            <a>update : {{ page.update }}</a>
+        </p>
+    </div>
+</body>
+</html>
