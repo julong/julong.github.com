@@ -13,13 +13,12 @@ jQuery(document)
                                         'titleFormat' : function(title,
                                                 currentArray, currentIndex,
                                                 currentOpts) {
-//                                            alert(title);
                                             return '<span id="fancybox-title-over">'
                                                     + (currentIndex + 1)
                                                     + ' / '
                                                     + currentArray.length
                                                     + ' '
-                                                    + title + '</span>';
+                                                    + title + '&nbsp;<a target="_blank" href="'+currentOpts.href+'" style="float:right;color:white;">原图</a></span>';
                                         }
                                     });
 
