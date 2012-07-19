@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  我死之前
+title:  《我死之前》
 ---
 
 h1. {{ page.title }}
