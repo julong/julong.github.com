@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="julong,blog" />
+<meta name="description" content="julong's blog" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>{{ page.title }}</title>
+<link href="/css/blogstyle.css" rel="stylesheet" type="text/css" media="screen" />
+{% include ga.textile %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="menu">
+    <ul>
+      <li class="current_page_item"><span><a href="/index.html">Home</a></span></li>
+      <li><a href="/blog.html">Blog</a></li>
+      <li><a href="/album.html">Photos</a></li>
+      <li><a href="#">Books</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#">Julong Blog</a></h1>
+      <p>记录点滴</p>
+    </div>
+  </div>
+  <div id="page">
+    {{ content }}
+	<div style="clear: both;">&nbsp;</div>
+  </div>
+</div>
+<div id="footer-wrapper">
+  <div id="three-columns">
+    <div id="column1">
+      <h2>Developer&nbsp;</h2>
+      <ul>
+        <li><a href="">Resources</a></li>
+        <li><a href="">Documents</a></li>
+        <li><a href="">Videos</a></li>
+        <li><a href="">Archive</a></li>
+      </ul>
+    </div>
+    <div id="column2">
+      <h2>Contact</h2>
+      <ul>
+        <li>Moblie: 18321760090</li>
+        <li>Email: juqiulong [at] gmail.com</li>
+        <li><a target="_blank" href="http://github.com/julong/">github.com/julong</a></li>
+        <li>如果您有任何意见、建议、错误报告，或者针对我的请吃请喝、美女介绍，请与我及时联系。：）</li>
+      </ul>
+    </div>
+    <div id="column3">
+      <h2>License</h2>
+      <ul>
+        <li>Except where otherwise noted,content on this site is licensed under a <a rel="license"  target="_blank"  href="http://creativecommons.org/licenses/by/3.0/" class="subfoot"> Creative Commons Attribution 3.0 License</a>.</li>
+      </ul>
+    </div>
+  </div>
+  <div id="footer">
+    <p>Copyleft (c) 2012 <a href="/index.html">Julong.Tk</a>.</p>
+  </div>
+</div>
+</body>
+</html>

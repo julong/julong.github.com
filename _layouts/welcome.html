@@ -4,22 +4,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>{{ page.title }}</title>
-
 <link href='http://fonts.googleapis.com/css?family=Codystar|Caesar+Dressing|Henny+Penny|The+Girl+Next+Door|Frijole|Monoton|Squada+One|Spirax|Handlee|Amatic+SC|Macondo|Flavors' rel='stylesheet' type='text/css'>
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-33363723-1']);
-  _gaq.push(['_setDomainName', 'julong.tk']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
 <style>
 body {
     background:black; 
@@ -49,6 +34,7 @@ a:visited {
     text-decoration: none;
 }
 </style>
+{% include ga.textile %}
 </head>
 <body>
 {{ content }}
