@@ -2,7 +2,7 @@
 layout: post
 category: article
 title: 《我死之前》
-description: 我的遗愿清单...
+description: 不要在死的那一刻,才发现自己没有活过.
 ---
 
 # [{{ page.title }}][1]
