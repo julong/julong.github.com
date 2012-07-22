@@ -1,0 +1,39 @@
+---
+layout: post
+category: article
+title:  ruby 学习总结
+description: Ruby学习笔记
+---
+# [{{ page.title }}][1]
+
+p(meta). 15 Jul 2012 - Shanghai
+
+这篇先偷个懒，稍后再补
+
+loops,blcok,iterators :
+
+number=0
+while number <10
+    puts number
+    number =number+1
+end
+puts
+
+until number >10
+    puts number
+    number =number +1
+end
+puts
+for i in 0...10
+    puts i
+end
+puts
+10.times { |i| puts i}
+
+a=[1,2,3,4]
+
+a
+
+a[0]
+
+
