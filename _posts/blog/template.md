@@ -12,5 +12,5 @@ category: blog
 
 
 
-[BeiYuu]:    http://beiyuu.com  "BeiYuu"
+[Julong]:    http://www.julong.tk  "Julong"
 [1]:    {{ page.url}}  ({{ page.title }})
