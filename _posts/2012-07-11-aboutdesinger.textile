@@ -1,9 +1,11 @@
 ---
 layout: post
-title: 关于页面设计
+title: 关于页面设计（Update）
+category: project
+description: 过程改进
 ---
-
-h1. {{ page.title }}
+# [{{ page.title }}][1]
+2012-07-10 By {{ site.author_info }}
 
 p(meta). 10 Jul 2012 - Shanghai
 
