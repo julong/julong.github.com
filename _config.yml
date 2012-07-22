@@ -5,7 +5,7 @@ pygments:         true
 paginate:         6
 permalink:        /:title
 
-title:            Julong.Tk
+title:            Julong's Lab
 url:              http://www.julong.tk
 feed:             /atom.xml
 author:
