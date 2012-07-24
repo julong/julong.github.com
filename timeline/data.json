@@ -1,0 +1,51 @@
+
+{
+    "timeline":
+    {
+        "headline":"花儿们",
+        "type":"default",
+		"startDate":"2012,7",
+		"text":"<i><span class='c1'>Flowers</span> & <span class='c2'>Story</span></i>",
+		"asset":
+        {
+            "media":"../photos/flowers/IMAG0107.jpg",
+            "credit":"全家福照",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"2012,07,15",
+                "headline":"羞答答的害羞草羞答答的开",
+                "text":"Nature at its finest in this video.",
+                "asset":
+                {
+                    "media":"../photos/flowers/IMAG0113.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,07,15",
+                "headline":"茉莉",
+                "text":"",
+                "asset":
+                {
+                    "media":"../photos/flowers/IMAG0112.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,07,11",
+                "headline":"吊篮",
+                "text":"",
+                "asset":
+                {
+                    "media":"../photos/flowers/IMAG0089.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}
