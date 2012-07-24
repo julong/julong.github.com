@@ -1,0 +1,16 @@
+---
+layout: post
+category: article
+title: timeline beta
+description: timeline模板作成中，review地址 http://www.julong.tk/timeline
+---
+
+# [{{ page.title }}][1]
+
+25 Jul 2012
+
+Timeline模板调试中，预览地址 [http://www.julong.tk/timeline][2]
+
+
+[1]:    {{ page.url}}  ({{ page.title }})
+[2]: http://www.julong.tk/timeline
