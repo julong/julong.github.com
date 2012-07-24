@@ -16,7 +16,7 @@
             {
                 "startDate":"2012,07,15",
                 "headline":"羞答答的害羞草羞答答的开",
-                "text":"Nature at its finest in this video.",
+                "text":"",
                 "asset":
                 {
                     "media":"../photos/flowers/IMAG0113.jpg",
@@ -25,12 +25,12 @@
                 }
             },
             {
-                "startDate":"2012,07,15",
+                "startDate":"2012,07,11,17,43,52",
                 "headline":"茉莉",
                 "text":"",
                 "asset":
                 {
-                    "media":"../photos/flowers/IMAG0112.jpg",
+                    "media":"../photos/flowers/IMAG0091.jpg",
                     "credit":"",
                     "caption":""
                 }
