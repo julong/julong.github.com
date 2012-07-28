@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 12px/140% Arial, Verdana, "微软雅黑";
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+}
+a:focus {
+	outline: 0;
+}
+.nav {
+	width: 230px;
+	height: 28px;
+	background: #f4f4f4;
+	margin: 20px auto;
+	border-radius: 5px;
+}
+.nav li {
+	width: auto;
+	line-height: 20px;
+	float: left;
+	position: relative;
+}
+.nav li.msMnu_Item a {
+	border: 1px solid #f4f4f4;
+	color: #4f4f4f;
+	display: inline-block;
+	padding: 3px 10px;
+	position: relative;
+	text-decoration: none;
+	font-size: 14px;
+}
+.nav li.msMnu_Item a:hover {
+	border: 1px solid #999;
+	background: #e4ecf4;
+}
+.nav li.msMnu_hove a {
+	border: 1px solid #999;
+	border-bottom: 1px solid #fff;
+	background: #fff;
+	color: #4f4f4f;
+	display: inline-block;
+	padding: 3px 10px;
+	position: relative;
+	text-decoration: none;
+	font-size: 14px;
+	z-index: 1000;
+}
+.list {
+	overflow: hidden;
+	position: absolute;
+	height: 0px;
+	top: 27px;
+	left: 0;
+	border-radius: 0 8px 8px 8px;
+}
+.list div {
+	background: #fff;
+	overflow: hidden;
+	padding: 12px 0 12px 0;
+	border: 1px solid #999;
+	float: left;
+}
+.list ul {
+	padding: 0px 10px;
+}
+.list li {
+	margin: 0px;
+	padding: 0px;
+	width: 170px;
+}
+.list li h3 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	color: #4f4f4f;
+	border-bottom: 1px solid #e3e3e3;
+	line-height: 20px;
+	width: 100%;
+	float: left;
+}
+.list li ul {
+	width: 170px;
+	margin: 0px;
+	padding: 5px 0;
+}
+.list li ul li.lis a {
+	width: 170px;
+	height: 22px;
+	color: #0060a6;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	text-indent: 3px;
+	border: none;
+}
+.list li ul li.lis a:hover {
+	color: #fff;
+	background: #0060a6;
+}

@@ -103,9 +103,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 #head .logo a{color:#999;}
 #head .logo a:hover {text-decoration:none;color:#666;}
 #head .logo a:active {position:relative;top:1px;opacity:0.9;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=90)";filter:alpha(opacity=90);}
-#head .nav {margin-top:30px;}
-#head .nav a {margin-right:10px;font-size:15px;font-weight:bold;color:#E50053}
-
+ 
 /****************entry style**************/
 #content .entry{margin-bottom:50px;}
 .entry ul{margin-bottom:20px;margin-left:25px;}

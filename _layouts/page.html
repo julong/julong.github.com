@@ -1,34 +1,85 @@
 ---
 layout:           default
 ---
+<link rel="stylesheet" href="/css/nav.css" type="text/css" />
+<script type="text/javascript" src="/js/nav.js"></script>
 <div id="head">
-    <div class='logo left'>
-        <a href="/" title="Home">Julong</a>
-    </div>
+    <div class='logo left'> <a href="/" title="Home">Julong</a> </div>
     <div id="maxim">It's My Life, My Style & My Way</div>
     <div id="header">
         <div class="nav right">
-            <a href="/blog" title="Thoughts On Something">Share</a>
-            <a href="/article" title="Article">Article</a>
-            <a href="/album.html" title="Photos">Photo</a>
-            <a href="/project" title="Projects Ongoing">Project</a>
-            <a href="/wiki" title="Wiki" >Wiki</a>
-            <a href="/about" title="About Julong" >About</a>
-            <a href="{{ site.feed }}" rel="feed" title="Subscribes The Feed" target="_blank">RSS</a>
-            <a href="/feedback" rel="feedback" title="Feedback" target="_blank">Feedback</a>
-        </div><!-- .nav -->
-    </div><!-- #header -->
-</div><!-- #head -->
-<div id="content">
-<div style="padding-right:10px;margin-left:-20px;">
-    {{ content }}
+            <ul>
+                <li class="msMnu_Item"> <a href="/article" class="menu">文章</a>
+                    <div class="list">
+                        <div>
+                            <ul class="menuList">
+                                <li>
+                                    <h3></h3>
+                                    <ul>
+                                        <li class="lis"><a href="javascript:;"></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="msMnu_Item"> <a href="/album.html" class="menu">照片</a>
+                    <div class="list">
+                        <div>
+                            <ul class="menuList">
+                                <li>
+                                    <h3></h3>
+                                    <ul>
+                                        <li class="lis"><a href="javascript:;"></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                <li class="msMnu_Item"> <a href="javascript:;" class="menu">资源分享</a>
+                    <div class="list" style="border-radius:8px 0 8px 8px;right:0;left:auto;">
+                        <div>
+                            <ul class="menuList">
+                                <li>
+                                    <h3>Resources</h3>
+                                    <ul>
+                                        <li class="lis"><a href="/project">常用工具</a></li>
+                                        <li class="lis"><a href="/wiki">资料链接</a></li>
+                                        <li class="lis"><a href="javascript:;">图书角</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="msMnu_Item"> <a href="javascript:;" class="menu">关于</a>
+                    <div class="list" style="border-radius:8px 0 8px 8px;right:0;left:auto;">
+                        <div>
+                            <ul class="menuList">
+                                <li>
+                                    <h3>About</h3>
+                                    <ul>
+                                        <li class="lis"><a href="/about">关于我</a></li>
+                                        <li class="lis"><a href="/feedback">反馈</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
-
-</div><!-- #content --> 
+<div id="content">
+    <div style="padding-right:10px;margin-left:-20px;">
+    {{ content }}
+    </div>
+</div>
 <div id="footer">
     <div class="copyright right">
-        {% for line in site.copyright %}
+    {% for line in site.copyright %}
         <p>{{ line }}</p>
-        {% endfor %}
+    {% endfor %}
     </div>
-</div><!-- #footer -->
+</div>
