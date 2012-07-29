@@ -4,12 +4,14 @@ title: About Julong
 ---
 <link rel="stylesheet" href="/css/doubanapi.css" type="text/css" />
 <script type="text/javascript" src="/js/doubanapi.js"></script>
-<script> 
+<script>
+$(document).ready(function(){ 
 	var _defaults = {
 		user:"3382082",
-		api:""		
+		api:""
 	}
 	dbapi.show(_defaults);
+})
 </script>
 <div id="douban"></div>
 
