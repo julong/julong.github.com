@@ -1,8 +1,11 @@
 ---
 layout: post
-category: article
 title: timeline beta
 description: timeline模板作成中，review地址 http://www.julong.tk/timeline
+categories:
+- Technology
+tags:
+- timeline
 ---
 
 # [{{ page.title }}][1]

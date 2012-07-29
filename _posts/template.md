@@ -1,9 +1,12 @@
 ---
 layout: post
-category: project
 title: title
 description: desc
 published: false
+categories:
+- Life|Technology|Project|Featured
+tags:
+- xx
 ---
 
 # [{{ page.title }}][1]

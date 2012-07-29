@@ -1,9 +1,12 @@
 ---
 layout: post
-category: article
 title: 关于页面设计（Update）
 description: 风格选择过程
 published: false
+categories:
+- Technology
+tags:
+- web 相册
 ---
 
 # [{{ page.title }}][1]

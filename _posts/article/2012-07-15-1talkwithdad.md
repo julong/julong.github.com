@@ -1,8 +1,12 @@
 ---
 layout: post
-category: article
 title: balabalalalalala
 description: 鸡毛蒜皮
+categories:
+- Life
+tags:
+- 小浣熊
+- 吃货
 ---
 
 # [{{ page.title }}][1]

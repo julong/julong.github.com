@@ -1,8 +1,12 @@
 ---
 layout: post
-category: article
 title: 花儿们,要坚强.
 description: 花儿们,好好长。
+categories:
+- Life
+tags:
+- 花
+- 求人品
 ---
 
 # [{{ page.title }}][1]

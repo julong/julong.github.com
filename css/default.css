@@ -137,3 +137,8 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 #menuIndex ul li.on{background-color:#eee}
 #menuIndex li.h1{font-size:14px;font-weight:normal;}
 #menuIndex li.h3{padding-left:15px;}
+
+.listing-item,.listing-seperator{list-style-type:none;}
+.listing-item a{padding:.2em 1em;}
+.listing-item time{color:#999999;}
+.listing-seperator{font-weight:bold;}

@@ -1,8 +1,11 @@
 ---
 layout: post
-category: article
 title: 相册的一些想法
 description: web相册
+categories:
+- Technology
+tags:
+- web 相册
 ---
 
 # [{{ page.title }}][1]

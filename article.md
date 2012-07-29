@@ -2,15 +2,27 @@
 layout: page
 title: Article
 ---
-<div class="category">
-    <ul>
-    {% for post in site.categories.article %}
-        <li>
-            <h2>
-            	<a href="{{ post.url }}">{{ post.title }}</a>
-            </h2>
-            <span>{{ post.description }}</span>
-        </li>
-    {% endfor %}
-    </ul>
-</div><!-- .entry -->
+<ul class="listing">
+{% for post in site.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <li class="listing-seperator">{{ y }}</li>
+  {% endif %}
+  <li class="listing-item">
+    <table>
+        <tr>
+            <td><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></td>
+            <td><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+        </tr>
+        <tr>
+    <td></td>
+<td>    <P><span>{{ post.description }}</span></P></td>
+</tr>
+    </table>
+
+
+
+  </li>
+{% endfor %}
+</ul>

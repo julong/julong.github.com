@@ -1,8 +1,11 @@
 ---
 layout: post
-category: article
 title: julong.tk
 description: 发布成功
+categories:
+- Technology
+tags:
+- git hub
 ---
 
 # [{{ page.title }}][1]
