@@ -2,7 +2,7 @@
 layout: post
 category: project
 title: 单词学习及自测工具
-description: 用Excel写的，用来配合自己日常学习单词及自测的小工具。
+description: 用来配合自己日常学习单词及自测的Excel小工具,分享给朋友们。
 ---
 
 # [{{ page.title }}][1]
