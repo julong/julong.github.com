@@ -2,17 +2,6 @@
 layout: page
 title: About Julong
 ---
-<link rel="stylesheet" href="/css/doubanapi.css" type="text/css" />
-<script type="text/javascript" src="/js/doubanapi.js"></script>
-<script>
-$(document).ready(function(){ 
-	var _defaults = {
-		user:"3382082",
-		api:""
-	}
-	dbapi.show(_defaults);
-})
-</script>
-<div id="douban"></div>
+<script type="text/javascript" src="http://www.douban.com/service/badge/3382082/?show=collection&amp;select=random&amp;n=20&amp;columns=6&amp;picsize=medium&amp;hidelogo=yes" ></script>
 
 [Julong]: http://www.julong.tk "Julong"
