@@ -13,7 +13,7 @@ title: Article
     <table>
         <tr>
             <td><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></td>
-            <td><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+            <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
         </tr>
         <tr>
     <td></td>
