@@ -53,6 +53,17 @@ tags:
 
 ##更新日志
 
+### Version V0.4 - 2012.07.31
+
+#### 新增功能
+
+1.增加`检测重复单词`按钮，检测单词表中重复单词并标红已方便编辑及合并。
+
+#### 文档
+
+新增单词60个。  
+
+
 ### Version V0.3 - 2012.07.30
 
 #### 新增功能
@@ -105,4 +116,4 @@ tags:
 
 
 [1]:    {{ page.url}}  ({{ page.title }})
-[2]: /resources/englishtool0.3.zip
+[2]: /resources/englishtool0.4.zip
