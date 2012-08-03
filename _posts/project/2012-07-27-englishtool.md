@@ -57,6 +57,25 @@ tags:
 
 ##更新日志
 
+### Version V0.6 - 2012.08.02
+
+#### 新增功能
+
+1.增加`抽取规则`下拉框。[Normal]模式 - 正常取词 ，[History]模式 - 只取出错的词。
+
+#### 功能改进
+
+1.增加筛选规则。一次性答对不再取。
+
+#### BUG FIX
+
+1.筛选后的数量小于生成数量时出现的VBA错误。
+
+#### 文档
+
+新增单词45个。  
+
+
 ### Version V0.5 - 2012.08.01
 
 #### 功能改进
@@ -139,8 +158,8 @@ tags:
 
 
 ##工具下载
-本地下载：[EnglishTool V0.5][2] -- 解压密码: julong
+本地下载：[EnglishTool V0.6][2] -- 解压密码: julong
 
 
 [1]:    {{ page.url}}  ({{ page.title }})
-[2]: /resources/englishtool0.5.zip
+[2]: /resources/englishtool0.6.zip
