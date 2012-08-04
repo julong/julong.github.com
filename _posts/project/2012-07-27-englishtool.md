@@ -57,6 +57,13 @@ tags:
 
 ##更新日志
 
+### Version V0.7 - 2012.08.04
+
+#### 功能改进
+
+1.双击F列显示提示。
+
+
 ### Version V0.6 - 2012.08.02
 
 #### 新增功能
@@ -158,8 +165,8 @@ tags:
 
 
 ##工具下载
-本地下载：[EnglishTool V0.6][2] -- 解压密码: julong
+本地下载：[EnglishTool V0.7][2] -- 解压密码: julong
 
 
 [1]:    {{ page.url}}  ({{ page.title }})
-[2]: /resources/englishtool0.6.zip
+[2]: /resources/englishtool0.7.zip
