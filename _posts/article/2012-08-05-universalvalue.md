@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 共同价值
-description: 多说必死，死后挫骨扬灰。
+description: 对内只要钱不要脸，对外只要脸不要钱。宁与友邦不予家奴。不多说了，多说必死，死后挫骨扬灰。
 categories:
 - Share
 tags:
