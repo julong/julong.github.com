@@ -57,6 +57,19 @@ tags:
 
 ##更新日志
 
+
+### Version V0.8 - 2012.08.12
+
+#### BUG FIX
+
+1.修复`History`BUG。
+
+#### 文档
+
+新增单词138个。  
+
+
+
 ### Version V0.7 - 2012.08.04
 
 #### 功能改进
@@ -165,8 +178,8 @@ tags:
 
 
 ##工具下载
-本地下载：[EnglishTool V0.7][2] -- 解压密码: julong
+本地下载：[EnglishTool V0.8][2] -- 解压密码: julong
 
 
 [1]:    {{ page.url}}  ({{ page.title }})
-[2]: /resources/englishtool0.7.zip
+[2]: /resources/englishtool0.8.zip
