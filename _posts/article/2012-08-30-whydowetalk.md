@@ -25,5 +25,6 @@ tags:
 
 <embed src="http://player.youku.com/player.php/sid/XMjA2NjQ4NzUy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
+<BR />
 
 [1]:    {{ page.url}}  ({{ page.title }})
