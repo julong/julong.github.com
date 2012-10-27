@@ -5,290 +5,318 @@
 * @author Vaska 
 * @author Gregory Cadar
 * @author Edited by Ed Nacional (www.ednacional.com)
-
-
 */
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	font-size: 10px;
-	font-family: Breuer, Helvetica, Arial, Sans-Serif; /* choose overall font - go to www.typetester.org to test sizes and see the list of safe fonts - If the user doesnt have the first one, it try the second, and goes along the list until it finds a font that the computer has installed */
-	color: #666666; /* sets the color of all type in the website except for links and other sections overwritten */
-	background-color: #ffffff; /* sets the overall background color */
+    font-size: 10px;
+    font-family: Breuer, Helvetica, Arial, Sans-Serif;
+    /* choose overall font - go to www.typetester.org to test sizes and see the list of safe fonts - If the user doesnt have the first one, it try the second, and goes along the list until it finds a font that the computer has installed */
+    color: #666666;
+    /* sets the color of all type in the website except for links and other sections overwritten */
+    background-color: #ffffff; /* sets the overall background color */
 }
 
-body.section-1 { }
-body.section-2 { }
-body.section-3 { }
+body.section-1 {
+    
+}
+
+body.section-2 {
+    
+}
+
+body.section-3 {
+    
+}
 
 /* LINKS */
-	
-	
-	/* colors for all links */
-	a:link {
-	text-decoration: none; /* none = no underline, other options include line-through or overline */
-	color: #666666; /* sets hex color of every link - www.colorpicker.com or photoshop to find hex values */
-	}
-	
-	a:active { 
-	text-decoration: none;
-	}
-	
-	/* highlights links that you have already clicked. This can be helpful for users to identify which items they have already seen*/
-	a:visited {
-	text-decoration: none;
-	color: #999999; /* this changes the background of a visited link, you can also get rid of the the back ground an color and there will be no change if a link has been visited */
-	}
-	
-	/* sets the properties for links when mouse rolls over */
-	a:hover {
-	text-decoration: none;
-	color: #48babf;
-	}
 
-	/* any img that is a link */
-	a img { 
-	border: none; 
-	}
+/* colors for all links */
+a:link {
+    text-decoration: none;
+    /* none = no underline, other options include line-through or overline */
+    color: #666666;
+    /* sets hex color of every link - www.colorpicker.com or photoshop to find hex values */
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* highlights links that you have already clicked. This can be helpful for users to identify which items they have already seen*/
+a:visited {
+    text-decoration: none;
+    color: #999999;
+    /* this changes the background of a visited link, you can also get rid of the the back ground an color and there will be no change if a link has been visited */
+}
+
+/* sets the properties for links when mouse rolls over */
+a:hover {
+    text-decoration: none;
+    color: #48babf;
+}
+
+/* any img that is a link */
+a img {
+    border: none;
+}
 
 /* Pre-Nav Text - Can be accessed in the Exhibit Settings */
-	
-	
-	.top-section {
-	padding-top: 0px;
-	padding-right: 25px;
-	padding-bottom: 15px;
-	padding-left: 25px; /* matches padding left in #menu ul */
-	font-size: 10px;
-	line-height: 15px;
-	color: cccccc;
-	font-style: normal;
-	font-family: Breuer, Arial, Helvetica, sans-serif;
-	border-top-color: #cccccc;
-	border-top-style: solid;
-	border-top-width: 1px;
-	border-top: 25px;
-	}
-
+.top-section {
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px; /* matches padding left in #menu ul */
+    font-size: 10px;
+    line-height: 15px;
+    color: cccccc;
+    font-style: normal;
+    font-family: Breuer, Arial, Helvetica, sans-serif;
+    border-top-color: #cccccc;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 25px;
+}
 
 /* MENU */
+#menu {
+    width: 225px;
+    /* sets the width of your left hand bar - if you change this also change the LEFT margin in #content to match */
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    /* this make the menu stay in place while the content section scrolls*/
+    height: 100%;
+    background-color: #F5F5F5;
+    padding-top: 25px;
+    /* change to match the padding-top in #content if you want them to align */
+    padding-bottom: 25px;
+    /* padding-left & right can be changed in #menu ul - below */
+    font-size: 10px;
+    line-height: 14px;
+}
 
-	#menu {
-	width: 225px; /* sets the width of your left hand bar - if you change this also change the LEFT margin in #content to match */
-	overflow: auto;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	position: fixed; /* this make the menu stay in place while the content section scrolls*/
-	height: 100%;
-	background-color: #F5F5F5;
-	padding-top: 25px; /* change to match the padding-top in #content if you want them to align */
-	padding-bottom: 25px;
-	/* padding-left & right can be changed in #menu ul - below */
-		font-size: 10px;
-	line-height: 14px;
-	}
-	
-	/* This section controls each section made */ 
-	#menu ul {
-		list-style: none;
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 5px; /* sets the space between each section */
-		margin-left: 0px;
-		/* sets the spacing around the menu - this is normally set to match padding options in #content but can be changed seperately */
-		padding-right: 25px;
-		padding-left: 25px;
-		text-align: left;
-		line-height: 16px;
-	}
+/* This section controls each section made */
+#menu ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px; /* sets the space between each section */
+    margin-left: 0px;
+    /* sets the spacing around the menu - this is normally set to match padding options in #content but can be changed seperately */
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: left;
+    line-height: 16px;
+}
 
-	#menu ul li {
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-	
-	/* The following sets the style for the section heading */
-	#menu ul li.section-title {
-	font-family: Breuer, Arial, Helvetica, sans-serif;
-	font-style: normal;
-	font-size: 10px;
-	padding-top: 5px;
-	padding-right: 0px;
-	padding-bottom: 5px;
-	padding-left: 0px;
-	color: #666666;
-	/* Following lines adds a line about each section */
-	border-top-color: #cccccc;
-	border-top-style: solid;
-	border-top-width: 1px;
-	}
-	
-	/* The following selectors style the "Built with Indexhibit" on the menu */	
-		
-		#menu ul.built {
-			margin-bottom: 5px;
-		}
-	
-		#menu ul.built li {
-			padding-top: 5px;
-			border-top-color: #cccccc;
-			border-top-style: solid;
-			border-top-width: 1px;
-			color: #bbbbbb;
-		}
-		
-		/* The following changes the link colors for only the "Built with Indexhibit" link */
-		#menu ul.built a {
-			color: #bbbbbb;
-		}
-		
-		#menu ul.built a:hover {
-	text-decoration: none;
-	color: #CC0000;
-		}
+#menu ul li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
-	/* This sets the style for Post-Nav Text which can be accessed in the Exhibit Settings */
-		
-		#copy {
-			font-size: 10px;
-			color: #bbbbbb;
-			font-family: Breuer, Arial, Helvetica, sans-serif;
-			margin-top: 5px;
-			padding-top: 10px;
-			border-top-color: #cccccc;
-			border-top-style: solid;
-			border-top-width: 1px;
-		}
+/* The following sets the style for the section heading */
+#menu ul li.section-title {
+    font-family: Breuer, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    color: #666666;
+    /* Following lines adds a line about each section */
+    border-top-color: #cccccc;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
 
+/* The following selectors style the "Built with Indexhibit" on the menu */
+#menu ul.built {
+    margin-bottom: 5px;
+}
+
+#menu ul.built li {
+    padding-top: 5px;
+    border-top-color: #cccccc;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #bbbbbb;
+}
+
+/* The following changes the link colors for only the "Built with Indexhibit" link */
+#menu ul.built a {
+    color: #bbbbbb;
+}
+
+#menu ul.built a:hover {
+    text-decoration: none;
+    color: #CC0000;
+}
+
+/* This sets the style for Post-Nav Text which can be accessed in the Exhibit Settings */
+#copy {
+    font-size: 10px;
+    color: #bbbbbb;
+    font-family: Breuer, Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    padding-top: 10px;
+    border-top-color: #cccccc;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
 
 /* CONTENT AREA */
+#content {
+    height: 100%;
+    background-color: #F5F5F5 margin-top:                                   
+                                           0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 225px;
+    /* sets the space so the content starts right when the menu ends - if you change this also change the width of #menu to match */
+    top: 0;
+    /* sets the spacing around the content area - this is normally set to match padding options in #menu but can be changed seperately */
+    padding-top: 25px;
+    /* change to match the padding-top in #menu if you want them to align */
+    padding-right: 5px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+}
 
-	#content {
-		height: 100%;
-		background-color:#F5F5F5
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 225px; /* sets the space so the content starts right when the menu ends - if you change this also change the width of #menu to match */
-	    top: 0;
-	    
-	    /* sets the spacing around the content area - this is normally set to match padding options in #menu but can be changed seperately */
-		padding-top: 25px;  /* change to match the padding-top in #menu if you want them to align */
-		padding-right: 5px;
-		padding-bottom: 25px;
-		padding-left: 40px;
-		
-	}
+.container {
+    margin-bottom: 25px;
+}
 
-	.container {
-		margin-bottom: 25px;
-	}
+#content p {
+    /* sets the properties for all paragraphs in the content area */
+    font-family: Breuer, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    width: 700px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px; /* sets the space between paragraphs */
+    margin-left: 0px;
+    line-height: 12px;
+    /* use this the change the leading (space between lines) */
+}
 
-	#content p { /* sets the properties for all paragraphs in the content area */
-	font-family: Breuer, Arial, Helvetica, sans-serif;
-	font-style: normal;
-	font-size: 10px;
-	width: 250px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 20px; /* sets the space between paragraphs */
-	margin-left: 0px;
-	line-height: 12px; /* use this the change the leading (space between lines) */
-	}
-
-	p { /* sets the properties for all paragraphs  */
-	margin-top: 0;
+p { /* sets the properties for all paragraphs  */
+    margin-top: 0;
     margin-right: 0;
     margin-bottom: 0px;
     margin-left: 0;
-	}
+}
 
 /* HEADINGS */
-	
-	/*
+
+/*
 	when typing your text/descriptions follow this format to use these heading types
 	
 	<h1>This is the text i want to be a heading which</h1>
 	
 	start with h1 as your largest most important heading. you may not need all 4 but they are here if you do.
 	*/
-	
-	h1 { 
-		font-family: Breuer, Arial, Helvetica, sans-serif
-		font-size: 32px;
-		color: #666666; /* This color overides the color set in "body". Delete this line if you want the colors of the headings to match the rest of your type */
-		padding-bottom: 15px; /* sets the spacing between the heading and paragraph below */
-	}
-	
-	h2 { 
-		font-family: Breuer, Arial, Helvetica, sans-serif
-		font-size: 20px;
-		font-weight: normal;
-		color: #666666;
-		padding-bottom: 15px; /* sets the spacing between the heading and paragraph below */
+h1 {
+    font-family: Breuer, Arial, Helvetica,
+        sans-serif font-size :                                          
+                                                          
+                                                       32px;
+    color: #666666;
+    /* This color overides the color set in "body". Delete this line if you want the colors of the headings to match the rest of your type */
+    padding-bottom: 15px;
+    /* sets the spacing between the heading and paragraph below */
+}
 
-	}
-	
-	h3 {
-	font-size: 8px;
-	color: #666666;	
-	}
-	
-	h4 { 
-	
-	}
+h2 {
+    font-family: Breuer, Arial, Helvetica,
+        sans-serif font-size :                                          
+                                                          
+                                                       20px;
+    font-weight: normal;
+    color: #666666;
+    padding-bottom: 15px;
+    /* sets the spacing between the heading and paragraph below */
+}
+
+h3 {
+    font-size: 8px;
+    color: #666666;
+}
+
+h4 {
+    
+}
 
 /* IMAGES */
+#img-container {
+    margin: 0 0 0px 0;
+    padding: 0;
+}
 
-	#img-container	{ 
-		margin: 0 0 0px 0; 
-		padding: 0; 
-	}
-	
-	#img-container p	{ 
-		width: 600px; 
-		margin: 0; 
-		padding: 0 0 0px 0;
-	}
-	
-	.nothumb img {
-		margin-top: 0px;  
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		border-color: #dbe2e0; /* erase the following 3 lines if you dont want borders on your images */
-	}
-	
-	#once { clear: left; }
-	
-	
+#img-container p {
+    width: 600px;
+    margin: 0;
+    padding: 0 0 0px 0;
+}
+
+.nothumb img {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border-color: #dbe2e0;
+    /* erase the following 3 lines if you dont want borders on your images */
+}
+
+#once {
+    clear: left;
+}
+
 /* SLIDE SHOW - Navigation */
-	
-	p.nav a {
-		background-color: #eeeeee;
-		padding-top: 3px;
-		padding-right: 9px;
-		padding-bottom: 3px;
-		padding-left: 9px;
-		font-size: 11px;
-		font-family: Georgia, serif;
-		-moz-border-radius-bottomleft:3px;
-		-moz-border-radius-bottomright:3px;
-		-moz-border-radius-topleft:3px;
-		-moz-border-radius-topright:3px;
-	}
-	
-	p.nav a:hover {
-		background-color: #cccccc;
-	}
-	
-	p.nav span#num {
-		letter-spacing: 2px;
-		font-family: Georgia, serif;
-		font-style: italic;
-		padding-left: 20px;
-	}
+p.nav a {
+    background-color: #eeeeee;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    font-size: 11px;
+    font-family: Georgia, serif;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+}
+
+p.nav a:hover {
+    background-color: #cccccc;
+}
+
+p.nav span#num {
+    letter-spacing: 2px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+p span.weibodate {
+    height: 30px;
+    padding-right: 5px;
+}
+
+p span.weibo {
+    padding-left: 5px;
+    width: 300px;
+    height: 30px;
+    overflow: hidden;
+    white-space: normal;
+    word-warp: break-word;
+    word-break: break-all; /*Only work in IE*/
+    text-overflow: ellipsis; /*Not working in FF*/
+}

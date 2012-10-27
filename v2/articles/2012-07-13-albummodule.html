@@ -1,22 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='zh-CN' lang='zh-CN'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
 <head>
-<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-<title>Home</title>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<title>Article / 相册的一些想法</title>
 <link rel='stylesheet' href='/v2/css/style.css' type='text/css' />
 <!--[if lte IE 6]>
 <link rel='stylesheet' href='/v2/css/ie.css' type='text/css' />
 <![endif]-->
 <style type='text/css'>
-.nothumb {
-    float: left;
-    padding: 0 1px 1px 0;
+#img-container p {
+    margin-bottom: 18px;
 }
 
-.nothumb img {
-    display: block;
-    margin: 0;
+#img-container p span {
+    line-height: 18px;
 }
 </style>
 <script type='text/javascript' src='/v2/js/jquery-1.4.2.min.js'></script>
@@ -25,8 +23,10 @@
 <script type='text/javascript' src='/v2/js/grow.vaska.js'></script>
 <script type='text/javascript' src='/v2/js/ui.base.js'></script>
 <script type='text/javascript' src='/v2/js/ui.draggable.js'></script>
+<!--<script src="/v2/v/0.1/strapdown.js"></script>-->
 <script type='text/javascript'>
     path = 'http://www.julong.tk/v2/gimgs/';
+
     $(document).ready(function() {
         setTimeout('move_up()', 1);
         expandingMenu(1);
@@ -41,6 +41,7 @@
             expandingMenu(7);
         });
         ;
+
     });
 </script>
 <style type='text/css'>
@@ -53,7 +54,7 @@ body {
 }
 </style>
 </head>
-<body class='section-1'>
+<body class='section-11'>
     <div id='menu'>
 	<a href="/v2/index.html"><img src="/v2/image/header.png" /></a>
 	<div class='container'>
@@ -91,16 +92,24 @@ body {
         <div class='container'>
             <img src='/v2/image/6c.png' width='700' height='1' />
             <p>
-                <img src='/v2/image/news2.png' width='700' height='150' /></a>
+                <img src='/v2/image/article.png' width='700' height='40' />
             </p>
-            <p>
-                <img src='/v2/image/top4.gif' width='700' height='1' />
-            </p>
-			﻿<p><span class="weibodate">2012-10-27</span>:<span class="weibo">123456789</span></p>
-<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
+            <p>相册的一些想法</p>
+            <p>Date</p>
+            <p></p>
+            <p><img src='/v2/image/top.gif' width='700' height='1' /></p>
+            <p>[---, layout: post, title: 相册的一些想法, description: web相册, categories:, - Technology, tags:, - web 相册, ---, , # [{{ page.title }}][1], , 13 Jul 2012, , 相册模块现在基本可用了，特此记录happy一下。, , 接下来打算准备整理出一套程序，选个模板能动态的产生可发布到web的相册，初步计划用[ruby][3]来实现，刚好也可以复习一下ruby的相关知识。, , 今天在网上看到[erubis][2]这个ruby下面的模板生成系统，down下来试用了一下，生成速度还是不错挺快的，争取这周把api啃下来，把脚本写出来。, , [1]:    {{ page.url}}  ({{ page.title }}), [2]: http://www.kuwata-lab.com/erubis/, [3]: http://ruby-lang.org/]</p>
 
-<p><span class="weibodate">2012年10月25日 21:07</span>:<span class="weibo">改个版面换个心情</span></p>
-<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
+			<br style="clear:both;">
+            <p>[EOF]</p>
+            <p>
+                <img src='/v2/image/6c.png' width='700' height='1' />
+            </p>
+            <p>如果您觉得有帮助，就尽情分享或者<a href="/about" target="_blank">关注我吧</a>：</p>
+            <div id="disqus_container">
+                <a href="#" class="comment" onclick="return false;">点击查看评论</a>
+                <div id="disqus_thread"></div>
+            </div>
             <p></p>
             <div class='cl'></div>
         </div>

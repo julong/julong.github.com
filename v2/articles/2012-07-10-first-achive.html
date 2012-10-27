@@ -1,22 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='zh-CN' lang='zh-CN'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
 <head>
-<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-<title>Home</title>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<title>Article / julong.tk</title>
 <link rel='stylesheet' href='/v2/css/style.css' type='text/css' />
 <!--[if lte IE 6]>
 <link rel='stylesheet' href='/v2/css/ie.css' type='text/css' />
 <![endif]-->
 <style type='text/css'>
-.nothumb {
-    float: left;
-    padding: 0 1px 1px 0;
+#img-container p {
+    margin-bottom: 18px;
 }
 
-.nothumb img {
-    display: block;
-    margin: 0;
+#img-container p span {
+    line-height: 18px;
 }
 </style>
 <script type='text/javascript' src='/v2/js/jquery-1.4.2.min.js'></script>
@@ -25,8 +23,10 @@
 <script type='text/javascript' src='/v2/js/grow.vaska.js'></script>
 <script type='text/javascript' src='/v2/js/ui.base.js'></script>
 <script type='text/javascript' src='/v2/js/ui.draggable.js'></script>
+<!--<script src="/v2/v/0.1/strapdown.js"></script>-->
 <script type='text/javascript'>
     path = 'http://www.julong.tk/v2/gimgs/';
+
     $(document).ready(function() {
         setTimeout('move_up()', 1);
         expandingMenu(1);
@@ -41,6 +41,7 @@
             expandingMenu(7);
         });
         ;
+
     });
 </script>
 <style type='text/css'>
@@ -53,7 +54,7 @@ body {
 }
 </style>
 </head>
-<body class='section-1'>
+<body class='section-11'>
     <div id='menu'>
 	<a href="/v2/index.html"><img src="/v2/image/header.png" /></a>
 	<div class='container'>
@@ -91,16 +92,24 @@ body {
         <div class='container'>
             <img src='/v2/image/6c.png' width='700' height='1' />
             <p>
-                <img src='/v2/image/news2.png' width='700' height='150' /></a>
+                <img src='/v2/image/article.png' width='700' height='40' />
             </p>
-            <p>
-                <img src='/v2/image/top4.gif' width='700' height='1' />
-            </p>
-			﻿<p><span class="weibodate">2012-10-27</span>:<span class="weibo">123456789</span></p>
-<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
+            <p>julong.tk</p>
+            <p>Date</p>
+            <p></p>
+            <p><img src='/v2/image/top.gif' width='700' height='1' /></p>
+            <p>[---, layout: post, title: julong.tk, description: 发布成功, categories:, - Technology, tags:, - git hub, ---, , # [{{ page.title }}][1], , 10 Jul 2012, , 关于建立独立博客的想法已经很久了，但是一直没有找到合适的托管，julong.tk这域名在4月份就注册了，本来打算自己开发一套简单jsp版的程序部署在heroku上，一直托托拉拉没有动手，中间也被各种琐碎的事情搅和，没法集中注意力，也就没情绪再弄了。, , 这几天在学用github的时候突然发现github pages服务，可以提供静态文件的托管并且可以绑定顶级米，正好手上的域名一直闲置，所以让它再发挥点余热，花了大半晚上搞定。现在还很简陋，anyway，慢慢改进吧。, , [1]:    {{ page.url}}  ({{ page.title }})]</p>
 
-<p><span class="weibodate">2012年10月25日 21:07</span>:<span class="weibo">改个版面换个心情</span></p>
-<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
+			<br style="clear:both;">
+            <p>[EOF]</p>
+            <p>
+                <img src='/v2/image/6c.png' width='700' height='1' />
+            </p>
+            <p>如果您觉得有帮助，就尽情分享或者<a href="/about" target="_blank">关注我吧</a>：</p>
+            <div id="disqus_container">
+                <a href="#" class="comment" onclick="return false;">点击查看评论</a>
+                <div id="disqus_thread"></div>
+            </div>
             <p></p>
             <div class='cl'></div>
         </div>

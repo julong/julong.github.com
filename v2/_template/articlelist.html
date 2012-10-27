@@ -1,0 +1,82 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<title>{PAGETITLE}</title>
+<link rel='stylesheet' href='/v2/css/style.css' type='text/css' />
+<!--[if lte IE 6]>
+<link rel='stylesheet' href='/v2/css/ie.css' type='text/css' />
+<![endif]-->
+<style type='text/css'>
+#img-container p {
+    margin-bottom: 18px;
+}
+
+#img-container p span {
+    line-height: 18px;
+}
+</style>
+<script type='text/javascript' src='/v2/js/jquery-1.4.2.min.js'></script>
+<script type='text/javascript' src='/v2/js/cookie.js'></script>
+<script type='text/javascript' src='/v2/js/expandingMenus.js'></script>
+<script type='text/javascript' src='/v2/js/grow.vaska.js'></script>
+<script type='text/javascript' src='/v2/js/ui.base.js'></script>
+<script type='text/javascript' src='/v2/js/ui.draggable.js'></script>
+<script type='text/javascript'>
+    path = 'http://www.julong.tk/v2/gimgs/';
+
+    $(document).ready(function() {
+        setTimeout('move_up()', 1);
+        expandingMenu(1);
+        $(document).ready(function() {
+            setTimeout('move_up()', 1);
+            expandingMenu(0)
+            expandingMenu(2)
+            expandingMenu(3)
+            expandingMenu(4)
+            expandingMenu(5)
+            expandingMenu(6)
+            expandingMenu(7);
+        });
+        ;
+
+    });
+</script>
+<style type='text/css'>
+body {
+    background-color: #F5F5F5;
+    background-image: url(/v2/image/42_background.png);
+    background-repeat: repeat;
+    background-position: 215px 0;
+    background-attachment: fixed;
+}
+</style>
+</head>
+<body class='section-11'>
+    {PAGEMENU}
+    <div id='content'>
+        <div class='container'>
+            <img src='/v2/image/6c.png' width='700' height='1' />
+            <p>
+                <img src='/v2/image/head-imp.png' width='700' height='150' />
+            </p>
+            <p>
+                <img src='/v2/image/top.gif' width='700' height='1' />
+            </p>
+			<!-- BEGIN: article -->
+            <p>
+                <a href="articles/{link}">{title} - {date}</a>
+            </p>
+            <p>{description}</p>
+            <p>
+                <img src='/v2/image/6c.png' width='700' height='1' />
+            </p>
+			 <!-- END: article -->
+            <p></p>
+            <div class='cl'></div>
+        </div>
+    </div>
+</body>
+</html>

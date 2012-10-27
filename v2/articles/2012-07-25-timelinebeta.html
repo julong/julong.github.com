@@ -1,22 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='zh-CN' lang='zh-CN'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
 <head>
-<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-<title>Home</title>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<title>Article / timeline beta</title>
 <link rel='stylesheet' href='/v2/css/style.css' type='text/css' />
 <!--[if lte IE 6]>
 <link rel='stylesheet' href='/v2/css/ie.css' type='text/css' />
 <![endif]-->
 <style type='text/css'>
-.nothumb {
-    float: left;
-    padding: 0 1px 1px 0;
+#img-container p {
+    margin-bottom: 18px;
 }
 
-.nothumb img {
-    display: block;
-    margin: 0;
+#img-container p span {
+    line-height: 18px;
 }
 </style>
 <script type='text/javascript' src='/v2/js/jquery-1.4.2.min.js'></script>
@@ -25,8 +23,10 @@
 <script type='text/javascript' src='/v2/js/grow.vaska.js'></script>
 <script type='text/javascript' src='/v2/js/ui.base.js'></script>
 <script type='text/javascript' src='/v2/js/ui.draggable.js'></script>
+<!--<script src="/v2/v/0.1/strapdown.js"></script>-->
 <script type='text/javascript'>
     path = 'http://www.julong.tk/v2/gimgs/';
+
     $(document).ready(function() {
         setTimeout('move_up()', 1);
         expandingMenu(1);
@@ -41,6 +41,7 @@
             expandingMenu(7);
         });
         ;
+
     });
 </script>
 <style type='text/css'>
@@ -53,7 +54,7 @@ body {
 }
 </style>
 </head>
-<body class='section-1'>
+<body class='section-11'>
     <div id='menu'>
 	<a href="/v2/index.html"><img src="/v2/image/header.png" /></a>
 	<div class='container'>
@@ -91,16 +92,24 @@ body {
         <div class='container'>
             <img src='/v2/image/6c.png' width='700' height='1' />
             <p>
-                <img src='/v2/image/news2.png' width='700' height='150' /></a>
+                <img src='/v2/image/article.png' width='700' height='40' />
             </p>
-            <p>
-                <img src='/v2/image/top4.gif' width='700' height='1' />
-            </p>
-			﻿<p><span class="weibodate">2012-10-27</span>:<span class="weibo">123456789</span></p>
-<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
+            <p>timeline beta</p>
+            <p>Date</p>
+            <p></p>
+            <p><img src='/v2/image/top.gif' width='700' height='1' /></p>
+            <p>[---, layout: post, title: timeline beta, description: timeline模板作成中，review地址 http://www.julong.tk/timeline, categories:, - Technology, tags:, - timeline, ---, , # [{{ page.title }}][1], , 25 Jul 2012, , Timeline模板调试中，预览地址 [http://www.julong.tk/timeline][2], , , [1]:    {{ page.url}}  ({{ page.title }}), [2]: http://www.julong.tk/timeline]</p>
 
-<p><span class="weibodate">2012年10月25日 21:07</span>:<span class="weibo">改个版面换个心情</span></p>
-<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
+			<br style="clear:both;">
+            <p>[EOF]</p>
+            <p>
+                <img src='/v2/image/6c.png' width='700' height='1' />
+            </p>
+            <p>如果您觉得有帮助，就尽情分享或者<a href="/about" target="_blank">关注我吧</a>：</p>
+            <div id="disqus_container">
+                <a href="#" class="comment" onclick="return false;">点击查看评论</a>
+                <div id="disqus_thread"></div>
+            </div>
             <p></p>
             <div class='cl'></div>
         </div>

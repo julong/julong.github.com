@@ -1,0 +1,5 @@
+﻿<p><span class="weibodate">2012-10-27</span>:<span class="weibo">123456789</span></p>
+<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
+
+<p><span class="weibodate">2012年10月25日 21:07</span>:<span class="weibo">改个版面换个心情</span></p>
+<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>

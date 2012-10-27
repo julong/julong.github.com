@@ -3,7 +3,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='zh-CN' lang='zh-CN'>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-<title>Home</title>
+<title>{PAGETITLE}</title>
 <link rel='stylesheet' href='/v2/css/style.css' type='text/css' />
 <!--[if lte IE 6]>
 <link rel='stylesheet' href='/v2/css/ie.css' type='text/css' />
@@ -54,39 +54,7 @@ body {
 </style>
 </head>
 <body class='section-1'>
-    <div id='menu'>
-	<a href="/v2/index.html"><img src="/v2/image/header.png" /></a>
-	<div class='container'>
-		<ul>
-			<li class='section-title'>NOTES</li>
-			<li><a href='/v2/article.html' onclick="do_click();">ARTICLE</a></li>
-			<li><a href='#' onclick="do_click();">TAGS</a></li>
-			<li><a href='#' onclick="do_click();">CATEGORY</a></li>
-		</ul>
-		<ul>
-			<li class='section-title'>MEDIA</li>
-			<li><a href='#' onclick="do_click();">Book</a></li>
-			<li><a href='#' onclick="do_click();">Music</a></li>
-			<li><a href='#' onclick="do_click();">Photo</a></li>
-		</ul>
-		<ul>
-			<li class='section-title'>ABOUT</li>
-			<li><a href='/v2/profile.html' onclick="do_click();">Profile</a></li>
-			<li><a href='#' onclick="do_click();">Resume</a></li>
-		</ul>
-		<ul>
-			<li class='section-title'>FEEDBACK</li>
-			<li><a href='#' onclick="do_click();">Contact</a></li>
-		</ul>
-		<p>
-			<img src="/v2/image/twitter.png" />
-		</p>
-		<div style="padding-left: 25px;">
-			Create By 2012
-			<p>Julong</p>
-		</div>
-	</div>
-</div>
+    {PAGEMENU}
     <div id='content'>
         <div class='container'>
             <img src='/v2/image/6c.png' width='700' height='1' />
@@ -96,11 +64,7 @@ body {
             <p>
                 <img src='/v2/image/top4.gif' width='700' height='1' />
             </p>
-			﻿<p><span class="weibodate">2012-10-27</span>:<span class="weibo">123456789</span></p>
-<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
-
-<p><span class="weibodate">2012年10月25日 21:07</span>:<span class="weibo">改个版面换个心情</span></p>
-<p><img src='/v2/image/top4.gif' width='700' height='1' /></p>
+			{NEWS}
             <p></p>
             <div class='cl'></div>
         </div>
